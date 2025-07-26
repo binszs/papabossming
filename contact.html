@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Papaboss Ming Chibugan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fffdf6, #ffe8b2);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .navbar {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .hero-text {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #d35400;
+    }
+    .hero-text p {
+      font-size: 1.3rem;
+      color: #555;
+    }
+    .contact-container {
+      max-width: 600px;
+      margin: 0 auto 60px;
+      background: #fff5e6;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 30px 25px;
+    }
+    .contact-info {
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+      text-align: center;
+      color: #d35400;
+      font-weight: 600;
+    }
+    .form-label {
+      font-weight: 600;
+      color: #d35400;
+    }
+    .btn-submit {
+      background: linear-gradient(45deg, #d35400, #f39c12);
+      color: white;
+      font-weight: 700;
+      border-radius: 30px;
+      padding: 10px 30px;
+      border: none;
+      transition: background 0.4s ease, box-shadow 0.4s ease;
+      box-shadow: 0 4px 10px rgba(211, 84, 0, 0.6);
+      width: 100%;
+    }
+    .btn-submit:hover {
+      background: linear-gradient(45deg, #f39c12, #d35400);
+      box-shadow: 0 6px 20px rgba(243, 156, 18, 0.8);
+      color: #fff;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: auto;
+    }
+    footer a {
+      color: #f8c291;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="logo.png" alt="Papaboss Logo" style="height: 40px; margin-right: 10px;">
+        Papaboss Ming Chibugan
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Text -->
+  <section class="hero-text container">
+    <h1>Contact Us</h1>
+    <p>We'll get your order in no time!</p>
+  </section>
+
+  <!-- Contact Info & Form -->
+  <section class="contact-container container" aria-label="Contact Information and Form">
+    <div class="contact-info">
+      Call us at: <strong>0905-431-2294</strong>
+    </div>
+    <form action="#" method="post" aria-label="Contact form">
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="Juan dela Cruz" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="juan@example.com" required />
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Your Order</label>
+        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Write your order here..." required></textarea>
+      </div>
+      <button type="submit" class="btn-submit" aria-label="Send Message">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Papaboss Ming Chibugan. All rights reserved. |
+    <a href="https://www.facebook.com/profile.php?id=61558756180595">Facebook</a> |
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

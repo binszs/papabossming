@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Papaboss Ming Chibugan | Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #fffdf6, #ffe8b2);
+    color: #333;
+  }
+
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+ .hero-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+  .hero-text {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #d35400;
+  }
+
+  .hero-text p {
+    font-size: 1.25rem;
+    color: #555;
+  }
+
+  .featured {
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  .featured img {
+    width: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .featured img:hover {
+    transform: scale(1.05);
+  }
+
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  footer a {
+    color: #f8c291;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+.small-carousel {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.small-carousel .carousel-inner {
+  height: 250px;
+}
+
+.small-carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+#menu-cta {
+  background-image: linear-gradient(to bottom right, #fff8e1, #ffe0b2);
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.dish-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #d35400; /* Optional: match your brand */
+  margin-top: 10px;
+}
+
+</style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+  <img src="logo.png" alt="Papaboss Logo" style="height: 40px; margin-right: 10px;">
+  Papaboss Ming Chibugan
+</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+ <div class="hero-image-container text-center mt-4">
+  <img src="banner.png" alt="Papaboss Ming Chibugan Banner" class="hero-img">
+</div>
+
+   
+
+  <!-- Hero Text -->
+  <section class="hero-text container">
+    <h1>Welcome to Papaboss Ming Chibugan</h1>
+    <p>Serving hot and hearty Tapsilog, Longsilog, Tocilog, and more , lutong bahay sa abot-kayang presyo!</p>
+  </section>
+
+<section id="best-sellers" class="container text-center my-5">
+  <h2 class="mb-4">Best Sellers</h2>
+  <div class="row">
+   <div class="col-md-4 text-center">
+  <a href="menu.html#bulalo" class="text-decoration-none">
+    <img src="bulalo.jpg" alt="Bulalo" class="img-fluid rounded shadow" />
+    <div class="dish-label">Bulalo</div>
+  </a>
+</div>
+  <div class="col-md-4 text-center">
+  <a href="menu.html#mami" class="text-decoration-none">
+    <img src="mami.jpg" alt="Mami" class="img-fluid rounded shadow" />
+    <div class="dish-label">Mami</div>
+  </a>
+</div>
+
+  <div class="col-md-4 text-center">
+  <a href="menu.html#hotsilog" class="text-decoration-none">
+    <img src="hotsilog.jpg" alt="Hotsilog" class="img-fluid rounded shadow" />
+    <div class="dish-label">Hotsilog</div>
+  </a>
+</div>
+  </div>
+</section>
+
+
+  <!-- Small Carousel -->
+<div class="container mt-5">
+  <h3 class="text-center mb-3">More Papaboss Favorites</h3>
+  <div id="smallCarousel" class="carousel slide small-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+     <a href="menu.html#tocilog" class="text-decoration-none">
+  <img src="bangs.jpg" class="d-block w-100 rounded" alt="Bangsilog" />
+  <div class="carousel-caption d-none d-md-block">
+  </div>
+</a>
+      <a href="menu.html#tocilog" class="text-decoration-none">
+  <img src="tapsilog.jpg" class="d-block w-100 rounded" alt="Tapsilog" />
+  <div class="carousel-caption d-none d-md-block">
+  </div>
+</a>
+     <a href="menu.html#tocilog" class="text-decoration-none">
+  <img src="chixsilog.jpg" class="d-block w-100 rounded" alt="Chixsilog" />
+  <div class="carousel-caption d-none d-md-block"
+  </div>
+</a>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#smallCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#smallCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!-- Menu Call to Action -->
+<section id="menu-cta" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="mb-4">Craving something delicious?</h2>
+    <a href="menu.html" class="btn btn-warning btn-lg fw-bold">CLICK HERE TO SEE OUR MENU</a>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Papaboss Ming Chibugan. All rights reserved. |
+    <a href="https://www.facebook.com/profile.php?id=61558756180595">Facebook</a> |
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
